@@ -1,29 +1,37 @@
 import "../styles/Navigation.css";
+import React, { useState } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 export const Navigation = () => {
+  const [menuclick, setMenuclick] = useState<boolean>(false);
+
+  const handleMenuClick = () => setMenuclick(!menuclick);
+
   return (
-    <header>
-      <div className="nav-container">
-        <nav className="navigation-menu">
-          <ul>
-            <li>
-              <a href="/Hero">Home</a>
-            </li>
-            <li>
-              <a href="/Expertise">Expertise</a>
-            </li>
-            <li>
-              <a href="/Timeline">Timeline</a>
-            </li>
-            <li>
-              <a href="/Projects">Projects</a>
-            </li>
-            <li>
-              <a href="/Contact">Contact</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+    <div className="header">
+      <nav className="navbar">
+        <div className="menu-bars" onClick={handleMenuClick}>
+          {menuclick ? (
+            <FaTimes size={30} style={{ display: "block", color: "white" }} />
+          ) : (
+            <FaBars size={30} style={{ display: "block" }} />
+          )}
+        </div>
+        <ul className={menuclick ? "nav-menu active" : "nav-menu"}>
+          <li className="nav-item">
+            <a href="/">Expertise</a>
+          </li>
+          <li className="nav-item">
+            <a href="/">Timeline</a>
+          </li>
+          <li className="nav-item">
+            <a href="/">Projects</a>
+          </li>
+          <li className="nav-item">
+            <a href="/">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   );
 };
