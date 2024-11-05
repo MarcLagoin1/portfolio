@@ -14,7 +14,7 @@ export const Navigation = () => {
           {menuclick ? (
             <FaTimes size={30} style={{ display: "block", color: "white" }} />
           ) : (
-            <FaBars size={30} style={{ display: "block" }} />
+            <FaBars size={30} style={{ display: "block", color: "white" }} />
           )}
         </div>
         <ul className={menuclick ? "nav-menu active" : "nav-menu"}>
