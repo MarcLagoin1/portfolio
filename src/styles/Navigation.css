@@ -43,7 +43,7 @@
 }
 
 .header .nav-item a:hover{
-    background-color: hsl(283, 25%, 25%);
+    background-color: rgba(187, 42, 220, 0.63);
     border-radius: 10px;
 }
 

@@ -53,5 +53,7 @@
 
 .arrow-icon {
     padding: 1.5rem;
-    margin: 10px;
+    position: relative;
+    bottom: 200px;
 }
+
