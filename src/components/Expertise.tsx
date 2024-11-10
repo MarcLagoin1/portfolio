@@ -40,7 +40,7 @@ export const Expertise = () => {
             </div>
           </div>
           <div className="skill">
-            <h3>Computer Vision</h3>
+            <h3>Data Engineering / Computer Vision</h3>
             <p>Tech Stack:</p>
             <div className="techstack">
               <div className="tech-icon">

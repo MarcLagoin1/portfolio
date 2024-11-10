@@ -16,7 +16,7 @@ export const Hero = () => {
           </a>
         </div>
         <h1>Marc Lagoin</h1>
-        <p>Software Engineer / Fullstack Developer</p>
+        <p>Data Engineer / Fullstack Developer</p>
       </div>
       <div className="arrow-icon">
         <FaArrowDown size={40} />
