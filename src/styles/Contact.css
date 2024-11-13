@@ -11,3 +11,7 @@
   text-align: left;
   justify-content: center;
 }
+
+.icon:hover {
+  transform: scale(1.08);
+}
