@@ -1,8 +1,11 @@
+import "../styles/Contact.css";
+
 export const Contact = () => {
   return (
-    <div id="contact" className="section">
-      <h1>Contact</h1>
-      <p>My Contact!</p>
+    <div id="contact">
+      <div className="contact-container">
+        <h1>Contact</h1>
+      </div>
     </div>
   );
 };

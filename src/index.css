@@ -11,10 +11,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --overlay: rgb(0,0,0,.7);
+  --overlay: rgb(0, 0, 0, 0.7);
 }
 
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -24,11 +24,11 @@ body {
   margin: 0;
 }
 
-
 ul {
   list-style-type: none;
 }
 
 a {
   text-decoration: none;
+  color: white;
 }

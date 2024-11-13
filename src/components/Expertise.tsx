@@ -14,7 +14,7 @@ import { TbBrandThreejs } from "react-icons/tb";
 
 export const Expertise = () => {
   return (
-    <div className="expertise">
+    <div id="expertise">
       <div className="card-container">
         <h1>My Expertise</h1>
         <div className="skill-grid">

@@ -1,6 +1,7 @@
 import "../styles/Navigation.css";
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 export const Navigation = () => {
   const [menuclick, setMenuclick] = useState<boolean>(false);
@@ -19,16 +20,53 @@ export const Navigation = () => {
         </div>
         <ul className={menuclick ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
-            <a href="/">Expertise</a>
+            <Link to="hero" spy={true} smooth={true} offset={0} duration={500}>
+              Home
+            </Link>
           </li>
           <li className="nav-item">
-            <a href="/">Timeline</a>
+            <Link
+              to="expertise"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}
+            >
+              Expertise
+            </Link>
           </li>
           <li className="nav-item">
-            <a href="/">Projects</a>
+            <Link
+              to="timeline"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}
+            >
+              Timeline
+            </Link>
           </li>
           <li className="nav-item">
-            <a href="/">Contact</a>
+            <Link
+              to="projects"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}
+            >
+              Projects
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}
+            >
+              Contact
+            </Link>
           </li>
         </ul>
       </nav>

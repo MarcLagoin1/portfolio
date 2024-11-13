@@ -5,7 +5,7 @@ import { FaArrowDown } from "react-icons/fa";
 
 export const Hero = () => {
   return (
-    <div className="hero">
+    <div id="hero">
       <div className="content">
         <div className="social-icons">
           <a href="https://github.com/MarcLagoin1">
