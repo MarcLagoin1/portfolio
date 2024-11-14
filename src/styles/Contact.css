@@ -1,7 +1,6 @@
 #contact {
   width: 100%;
   padding: 0;
-  min-height: 700px;
 }
 
 .contact-container {
@@ -14,4 +13,17 @@
 
 .icon:hover {
   transform: scale(1.08);
+}
+
+.contact-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+}
+
+.contact-icons a {
+  align-content: center;
+  justify-content: space-between;
+  gap: 10px;
 }

@@ -19,6 +19,7 @@ export const Projects = () => {
             <a href="https://github.com/MarcLagoin1/DeepL_Ships">
               <h2>Deep Learning Image Classification: "Ships"</h2>
             </a>
+            <p>24x24 ships image classification projects</p>
           </div>
         </div>
       </div>
