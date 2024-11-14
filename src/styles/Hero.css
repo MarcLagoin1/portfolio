@@ -41,6 +41,10 @@
   gap: 10px;
 }
 
+.social-icons .icon:hover {
+  transform: scale(1.1);
+}
+
 .content h1 {
   font-size: 5rem;
 }

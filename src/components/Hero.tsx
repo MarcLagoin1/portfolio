@@ -1,5 +1,5 @@
 import "../styles/Hero.css";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiMalt } from "react-icons/si";
 import { FaArrowDown } from "react-icons/fa";
 
@@ -9,10 +9,21 @@ export const Hero = () => {
       <div className="content">
         <div className="social-icons">
           <a href="https://github.com/MarcLagoin1">
-            <FaGithub size={40} style={{ color: "white", display: "block" }} />
+            <FaGithub
+              className="icon"
+              size={40}
+              style={{ color: "white", display: "block" }}
+            />
           </a>
           <a href="">
-            <SiMalt size={70} color="white" />
+            <FaLinkedin
+              className="icon"
+              size={40}
+              style={{ color: "white", display: "block" }}
+            />
+          </a>
+          <a href="">
+            <SiMalt className="icon" size={70} color="white" />
           </a>
         </div>
         <h1>Marc Lagoin</h1>
