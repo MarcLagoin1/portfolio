@@ -24,13 +24,6 @@ export const Contact = () => {
                 style={{ color: "white", display: "block" }}
               />
             </a>
-            <a href="" className="contact-icons">
-              <SiMalt
-                className="icon"
-                size={70}
-                style={{ color: "white", display: "block" }}
-              />
-            </a>
           </div>
         </div>
       </div>

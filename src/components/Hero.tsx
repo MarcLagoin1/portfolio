@@ -15,19 +15,16 @@ export const Hero = () => {
               style={{ color: "white", display: "block" }}
             />
           </a>
-          <a href="">
+          <a href="https://www.linkedin.com/in/marc-lagoin-951009179/">
             <FaLinkedin
               className="icon"
               size={40}
               style={{ color: "white", display: "block" }}
             />
           </a>
-          <a href="">
-            <SiMalt className="icon" size={70} color="white" />
-          </a>
         </div>
         <h1>Marc Lagoin</h1>
-        <p>Data Engineer / Fullstack Developer</p>
+        <p>Computer Vision / Fullstack Developer</p>
       </div>
       <div className="arrow-icon">
         <FaArrowDown size={40} />
