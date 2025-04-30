@@ -1,6 +1,5 @@
 import "../styles/Contact.css";
 import { FaGithub } from "react-icons/fa";
-import { SiMalt } from "react-icons/si";
 import { FaLinkedin } from "react-icons/fa";
 
 export const Contact = () => {

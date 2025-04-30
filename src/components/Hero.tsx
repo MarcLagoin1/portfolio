@@ -1,6 +1,5 @@
 import "../styles/Hero.css";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { SiMalt } from "react-icons/si";
 import { FaArrowDown } from "react-icons/fa";
 
 export const Hero = () => {
